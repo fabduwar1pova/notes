@@ -39,3 +39,44 @@
     flex-wrap: wrap;
     gap: 0.7rem;
 }
+
+@media(min-width:0) and (max-width:576px){
+    .note{
+        width: 97%;
+    }
+}
+
+
+@media(min-width:576px) and (max-width:768px){
+    .note{
+        width: 47%;
+    }
+}
+
+
+@media(min-width:768px) and (max-width:918px){
+    .note{
+        width: 30%;
+    }
+}
+
+
+@media(min-width:918px) and (max-width:1024px){
+    .note{
+        width: 22%;
+    }
+}
+
+
+@media(min-width:1024px) and (max-width:1200px){
+    .note{
+        width:17%;
+    }
+}
+
+
+@media(min-width:1200px){
+    .note{
+        width: 14%;
+    }
+}
