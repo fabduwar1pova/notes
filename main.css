@@ -1,0 +1,41 @@
+.things {
+    background-color: lightgrey;
+    border-radius: 12px;
+    padding: 0.5rem 0.75rem;
+}
+
+.search-input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 800px;
+
+}
+
+.title {
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.notes {
+    width: 22%;
+    min-height: 200px;
+    padding: 0.7rem;
+    background-color: rgb(245, 243, 105);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.notes-container {
+    padding: 0.5rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.7rem;
+}
